@@ -1,4 +1,4 @@
-import { getAllByTestId } from '@testing-library/react';
+
 import { getAllCourses, createCourseList, updateCourseList, deleteCourseList, addCourseToCourseList, getCourseListByYearSemesterType, getcoursebyid, createStudent, getstbyid } from '../Controllers/Cgpacontroller.js';
 import express, { request } from 'express';
 import { calculateCGPA } from '../Controllers/Cgpacalculator.js';
